@@ -77,7 +77,7 @@ Widget buildQuestion() {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Question ${currentQuestionIndex + 1}/${questions.length}',
+          'Questão ${currentQuestionIndex + 1}/${questions.length}',
           style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 20),
@@ -103,12 +103,12 @@ Widget buildResult() {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const Text(
-          'Quiz Completed!',
+          'Quiz Completado!',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 20),
         Text(
-          'Your score: $score/${questions.length}',
+          'Seu score: $score/${questions.length}',
           style: const TextStyle(fontSize: 20),
         ),
         const SizedBox(height: 20),
